@@ -21,6 +21,7 @@ public class MergeSort {
 		
 		for (int i = l; i <= mid; i++) {
 			L[i - l] = arr[i];
+			
 		}
 		
 		for (int i = mid + 1; i <= r; i++) {

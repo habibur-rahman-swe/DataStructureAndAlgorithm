@@ -31,6 +31,7 @@ public class RabinKarpAlgorithm {
 			t = (d * t + txt.charAt(i)) % q;
 		}
 		
+		
 		// Slide the pattern over text one by one
 		for (i = 0; i <= N - M; i++) {
 			if (p == t) {
